@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We are the Champions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="hero">
+            <img 
+                class="logo" 
+                src="./assets/freddie.png" 
+                alt="White silhouette of Freddie Mercury doing his famous pose. 
+                Standing, legs spread apart in a stance holding his mic in the air.">
+            <h1>We are the Champions</h1>
+        </div>
+        <div class="user-section">
+            <textarea class="user-endorsement user-input" id="endorsement-input-el" name="" id="" cols="30" rows="10" placeholder="Write your endorsement here"></textarea>
+            <input class="users-name-input user-input" id="from-input-el" type="text" placeholder="From">
+            <input class="users-name-input user-input" id="to-input-el" type="text" placeholder="To">
+            <button class="publish-btn" id="submit-btn-el">Publish</button>
+        </div>
+        <div class="endorsement-section">
+            <h2 class="endorsement-title">- Endorsements -</h2>
+            <div class="message-el" id="message-el"></div>
+            <div class="endorsements-container" id="endorsement-display"></div>
+        </div>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
