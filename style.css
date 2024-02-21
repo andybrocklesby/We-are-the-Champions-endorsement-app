@@ -138,3 +138,8 @@ body{
 .endorsement-name{
     font-weight: bold;
 }
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}
